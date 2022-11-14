@@ -51,3 +51,7 @@
   color: #fff;
   background-color: #9b4dca;
 }
+
+.wrap {
+  flex-wrap: wrap;
+}

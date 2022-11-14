@@ -46,7 +46,7 @@ export default function PokemonSection (props) {
                                 <span>Altezza: <b>{props.pokemon.height}</b></span>
                             </div>
                         </div>
-                        <div className="cont">
+                        <div className="cont container">
                             <div className="row">
                                 <div className="column">
                                     <div className="M-top flex align-center justify-center h-90">
@@ -74,38 +74,38 @@ export default function PokemonSection (props) {
                                     </div>
                                     <div className="stat stats-m-top">
                                         <p><b>hp</b></p>
-                                        <div class="stat-light-grey">
-                                            <div class="stat-container stat-purple stat-center" style={{width:props.pokemon.stats[0].base_stat+"%"}}>{props.pokemon.stats[0].base_stat}</div>
+                                        <div className="stat-light-grey">
+                                            <div className="stat-container stat-purple stat-center" style={{width:props.pokemon.stats[0].base_stat+"%"}}>{props.pokemon.stats[0].base_stat}</div>
                                         </div>
                                     </div>
                                     <div className="stat stats-m-top">
                                         <p><b>attack</b></p>
-                                        <div class="stat-light-grey">
-                                            <div class="stat-container stat-purple stat-center" style={{width:props.pokemon.stats[1].base_stat+"%"}}>{props.pokemon.stats[1].base_stat}</div>
+                                        <div className="stat-light-grey">
+                                            <div className="stat-container stat-purple stat-center" style={{width:props.pokemon.stats[1].base_stat+"%"}}>{props.pokemon.stats[1].base_stat}</div>
                                         </div>
                                     </div>
                                     <div className="stat stats-m-top">
                                         <p><b>defence</b></p>
-                                        <div class="stat-light-grey">
-                                            <div class="stat-container stat-purple stat-center" style={{width:props.pokemon.stats[2].base_stat+"%"}}>{props.pokemon.stats[2].base_stat}</div>
+                                        <div className="stat-light-grey">
+                                            <div className="stat-container stat-purple stat-center" style={{width:props.pokemon.stats[2].base_stat+"%"}}>{props.pokemon.stats[2].base_stat}</div>
                                         </div>
                                     </div>
                                     <div className="stat stats-m-top">
                                         <p><b>special-attack</b></p>
-                                        <div class="stat-light-grey">
-                                            <div class="stat-container stat-purple stat-center" style={{width:props.pokemon.stats[3].base_stat+"%"}}>{props.pokemon.stats[3].base_stat}</div>
+                                        <div className="stat-light-grey">
+                                            <div className="stat-container stat-purple stat-center" style={{width:props.pokemon.stats[3].base_stat+"%"}}>{props.pokemon.stats[3].base_stat}</div>
                                         </div>
                                     </div>
                                     <div className="stat stats-m-top">
                                         <p><b>special-defence</b></p>
-                                        <div class="stat-light-grey">
-                                            <div class="stat-container stat-purple stat-center" style={{width:props.pokemon.stats[4].base_stat+"%"}}>{props.pokemon.stats[4].base_stat}</div>
+                                        <div className="stat-light-grey">
+                                            <div className="stat-container stat-purple stat-center" style={{width:props.pokemon.stats[4].base_stat+"%"}}>{props.pokemon.stats[4].base_stat}</div>
                                         </div>
                                     </div>
                                     <div className="stat stats-m-top">
                                         <p><b>speed</b></p>
-                                        <div class="stat-light-grey">
-                                            <div class="stat-container stat-purple stat-center" style={{width:props.pokemon.stats[5].base_stat+"%"}}>{props.pokemon.stats[5].base_stat}</div>
+                                        <div className="stat-light-grey">
+                                            <div className="stat-container stat-purple stat-center" style={{width:props.pokemon.stats[5].base_stat+"%"}}>{props.pokemon.stats[5].base_stat}</div>
                                         </div>
                                     </div>
                                 </div>
