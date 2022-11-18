@@ -5,7 +5,7 @@ export default function Pokedex(props) {
             <div className="container">
                 <div className="row wrap">
                 {props.pokedex.map(pokemon => (
-                    <div className="column column-20" key={pokemon.id}>
+                    <div className="column" key={pokemon.id}>
                         <div>
                             <img src={pokemon.sprites.front_default} alt={pokemon.name} height="200" width="200"/>
                         </div>
